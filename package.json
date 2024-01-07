@@ -1,0 +1,16 @@
+{
+  "name": "sql_to_mongo",
+  "version": "1.0.0",
+  "description": "SQL command to MongoDB command Payme",
+  "main": "build/main.js",
+  "scripts": {
+    "start": "rm -rf build && tsc && node build/main.js"
+  },
+  "keywords": [],
+  "author": "Bekhzod Ubaydullaev",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.8.9",
+    "typescript": "^5.2.2"
+  }
+}
